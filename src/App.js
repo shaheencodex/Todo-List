@@ -52,7 +52,7 @@ function App() {
       search={search}
       setSearch={setSearch}/>
       <Main
-       items={items.filter(item => ((iztem.item).toLowerCase()).includes(search.toLowerCase()))}
+       items={items.filter(item => ((item.item).toLowerCase()).includes(search.toLowerCase()))}
        handleChange={handleChange}
        handleDelete={handleDelete}
       />
